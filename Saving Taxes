@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=1;i<=a;i++)
+	{
+	    int n,m,g;
+	    cin>>n>>m;
+	    g=n-m;
+	    cout<<g<<endl;
+	}
+	return 0;
+}
