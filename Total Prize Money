@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    int g=x*10,b=y*90;
+	    cout<<g+b<<endl;
+	}
+	return 0;
+}
