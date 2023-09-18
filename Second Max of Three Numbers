@@ -1,0 +1,5 @@
+a=int(input())
+for i in range(a):
+    l=list(map(int,input().split()))
+    g=sorted(l)
+    print(g[1])
