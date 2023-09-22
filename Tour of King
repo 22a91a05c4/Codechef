@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=1;i<=a;i++)
+	{
+	    int n,m,c;
+	    cin>>n>>m;
+	    c=(n*5)+(m*7);
+	    cout<<c<<"\n";
+	}
+	return 0;
+}
