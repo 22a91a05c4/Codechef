@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,i;
+    cin>>a;
+    for(i=0;i<a;i++)
+    {
+        int k,x,d;
+        cin>>k>>x;
+        d=k*7;
+        int g=d-x;
+        cout<<g<<endl;
+    }
+}
