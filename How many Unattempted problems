@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,n;
+	cin>>a>>n;
+	int f=a-n;
+	cout<<f;
+	return 0;
+}
