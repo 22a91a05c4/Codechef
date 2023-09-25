@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    int g,h,v;
+	    cin>>g>>h>>v;
+	    int f=(h*1)+(v*2);
+	    if(f<=g)
+	    {
+	        cout<<"YES"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"NO"<<endl;
+	    }
+	}
+	return 0;
+}
