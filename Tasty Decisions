@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    int g=x*2;
+	    int v=y*5;
+	    if(g>v)
+	    {
+	        cout<<"Chocolate"<<endl;
+	    }
+	    else if(v>g)
+	    {
+	        cout<<"Candy"<<endl;
+	    }
+	    else if(g==v)
+	    {
+	        cout<<"Either"<<endl;
+	    }
+	}
+	return 0;
+}
