@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,i;
+    cin>>a;
+    for(i=0;i<a;i++)
+    {
+        int v;
+        cin>>v;
+        cout<<v*3<<endl;
+    }
+	return 0;
+}
