@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    int n,x,y;
+	    cin>>n>>x>>y;
+	    int f=n-x;
+	    int h=f+y;
+	    cout<<h<<endl;
+	}
+	return 0;
+}
