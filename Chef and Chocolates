@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    int c,v,b;
+	    cin>>c>>v>>b;
+	    int f=(c*5)+(v*10);
+	    int d=f/b;
+	    cout<<d<<endl;
+	}
+	return 0;
+}
