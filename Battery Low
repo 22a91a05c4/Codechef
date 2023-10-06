@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    int c;
+	    cin>>c;
+	    if(c<=15)
+	    {
+	        cout<<"Yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"No"<<endl;
+	    }
+	}
+	return 0;
+}
