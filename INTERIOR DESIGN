@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    int k,g,f,v,b,c;
+	    cin>>k>>g>>f>>v;
+	    b=k+g;
+	    c=f+v;
+	    if(b>c)
+	    {
+	        cout<<c<<endl;
+	    }
+	    else
+	    {
+	        cout<<b<<endl;
+	    }
+	}
+	return 0;
+}
