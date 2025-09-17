@@ -1,0 +1,53 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		for(int i=0;i<t;i++)
+		{
+		    int n=sc.nextInt();
+		    int m=sc.nextInt();
+		    String s=sc.next();
+		    int a=0;
+		    int b=0;
+		    for(int j=0;j<m;j++)
+		    {
+		        char ch = s.charAt(j);
+		        if(ch=='1')
+		        {
+		            a++;
+		        }
+		        else
+		        {
+		            b++;
+		        }
+		    }
+		    
+		    int rem=n-m;
+		    if(rem<(Math.abs(a-b)))
+		    {
+		        System.out.println("No");
+		    }
+		    else if(rem==(Math.abs(a-b)))
+		    {
+		        System.out.println("Yes");
+		    }
+		    else{
+		        rem=rem-a-b;
+		        if(rem%2==0)
+		        {
+		            System.out.println("Yes");
+		        }
+		        else
+		        {
+		            System.out.println("No");
+		        }
+		    }
+		}
+	}
+}
